@@ -1,0 +1,27 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #C8DAE6;
+$color-input: red;
+$display: flex;
+$flex-wrap: wrap;
+$border: 1px solid #ccc;
+$padding: 10px;
+$background-color-input: lightgreen;
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  flex: $flex-wrap;
+  border: $border;
+  padding: $padding;
+
+}
+
+input[type="submit" i] {
+  color: $color_input;
+  background-color: $background-color-input;
+
+}
